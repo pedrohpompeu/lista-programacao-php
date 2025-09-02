@@ -33,6 +33,7 @@ public class Atividade29 {
                     "2-Subtração \n" +
                     "3-Multiplicação \n" +
                     "4-divisão");
+            opcao = leia.nextInt();
             double x = 0;
             double y = 0;
             switch (opcao) {
