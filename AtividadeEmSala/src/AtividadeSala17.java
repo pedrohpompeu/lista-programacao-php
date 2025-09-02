@@ -8,6 +8,6 @@ public class AtividadeSala17 {
     }
     public static void main(String[] args) {
         Scanner leia = new Scanner(System.in);
-        int resultado = potencia(leia.nextInt());
+
     }
 }
