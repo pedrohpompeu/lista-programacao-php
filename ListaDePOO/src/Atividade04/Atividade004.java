@@ -1,9 +1,9 @@
 package Atividade04;
 
-public class Executavel {
+public class Atividade004 {
     public static void main(String[] args) {
         Funcionario f1 = new Funcionario("Fulano");
-        Vendedor auxiliar = new Vendedor("Auxiliar Pablo");
+        Vendedor auxiliar = new Vendedor("Natan");
         Gerente gerente = new Gerente("Pompeu");
         Folha folha = new Folha();
         auxiliar.setComissao(1.2);
