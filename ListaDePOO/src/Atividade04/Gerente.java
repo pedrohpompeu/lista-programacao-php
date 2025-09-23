@@ -10,7 +10,7 @@ public class Gerente extends Funcionario {
     }
 
     public Gerente(String nome) {
-        super(nome);
+        super();
     }
 
 
@@ -22,7 +22,6 @@ public class Gerente extends Funcionario {
         this.bonus = bonus;
     }
 
-    @Override
     public double getcalcularPagamento() {
         final double salarioBase = super.getSalarioBase();
         return salarioBase+this.bonus;
